@@ -1,0 +1,185 @@
+[
+  {
+    "description": "  Everybody wants to know when it's Friday",
+    "keyword": "Feature",
+    "name": "Is it Friday yet?",
+    "line": 1,
+    "id": "is-it-friday-yet?",
+    "tags": [],
+    "uri": "e2e/src/features/is_it_friday_yet.feature",
+    "elements": [
+      {
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Today is or is not Friday",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:16"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"TGIF\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Today is or is not Friday",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:16"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Today is or is not Friday",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "location": "e2e/src/steps/is_it_friday_yet.steps.ts:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
-import { defineSupportCode } from 'cucumber';
+import { Given, When, Then} from 'cucumber';
 import { assert } from 'chai';
 
-defineSupportCode(({Given, When, Then}) => {
+
 
     function isItFriday(today) {
         if (today === "Friday") {
@@ -23,4 +23,3 @@ defineSupportCode(({Given, When, Then}) => {
       Then('I should be told {string}', function (expectedAnswer) {
         assert.equal(this.actualAnswer, expectedAnswer);
       });
-})
